@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC04-ValidatonResponseRegisterSuccessful</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>de3da952-b378-4633-8f44-d9e0977cace9</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS01" time="8.986" tests="4" failures="0" errors="0">
+   <testsuite name="TS01" tests="4" failures="0" errors="0" time="8.986" skipped="0" timestamp="2022-08-03 08:02:47" hostname="user - LAPTOP-BLC6S5Q8" id="Test Suites/TS01">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\user\\Katalon Studio\\Test1-Katalon\\Reports\\20220803_080243\\TS01\\20220803_080243"/>
+         <property name="logFiles" value="C:\\Users\\user\\Katalon Studio\\Test1-Katalon\\Reports\\20220803_080243\\TS01\\20220803_080243\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="user - LAPTOP-BLC6S5Q8"/>
+         <property name="hostAddress" value="192.168.1.6"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.2.5.208"/>
+      </properties>
+      <testcase name="Test Cases/TC01-ValidationResponseAndVerifyJSONValue" time="3.587" classname="Test Cases/TC01-ValidationResponseAndVerifyJSONValue" status="PASSED">
+         <system-out><![CDATA[2022-08-03 08:02:48 - [TEST_CASE][PASSED] - Test Cases/TC01-ValidationResponseAndVerifyJSONValue: Test Cases/TC01-ValidationResponseAndVerifyJSONValue
+
+2022-08-03 08:02:48 - [TEST_STEP][PASSED] - sendRequest(findTestObject("GET-ListUser", ["SuccessCode":SuccessCode])): Send request successfully
+
+2022-08-03 08:02:50 - [MESSAGE][INFO] - HAR: C:\Users\user\Katalon Studio\Test1-Katalon\Reports\20220803_080243\TS01\20220803_080243\requests\main\0.har
+
+2022-08-03 08:02:50 - [MESSAGE][PASSED] - Send request successfully
+
+2022-08-03 08:02:50 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("GET-ListUser", ["SuccessCode":SuccessCode])): Send request and verify the response successfully
+
+2022-08-03 08:02:50 - [MESSAGE][INFO] - HAR: C:\Users\user\Katalon Studio\Test1-Katalon\Reports\20220803_080243\TS01\20220803_080243\requests\main\1.har
+
+2022-08-03 08:02:50 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2022-08-03 08:02:50 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2022-08-03 08:02:50 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2022-08-03 08:02:50 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-08-03 08:02:50 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-08-03 08:02:50 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2022-08-03 08:02:51 - [TEST_STEP][PASSED] - getStatusCode()).isIn(Arrays.asList(200, 201, 202)): null
+
+2022-08-03 08:02:51 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[4].first_name", "Charles"): Verify element property value successfully
+
+2022-08-03 08:02:51 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2022-08-03 08:02:51 - [MESSAGE][PASSED] - Verify response successfully
+
+2022-08-03 08:02:51 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2022-08-03 08:02:51 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-08-03 08:02:51 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-08-03 08:02:51 - [TEST_STEP][PASSED] - verifyElementsCount(response, "data.first_name", 6): Verify element count successfully
+
+2022-08-03 08:02:51 - [MESSAGE][PASSED] - Verify element count successfully
+
+2022-08-03 08:02:51 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "data[4].first_name", "Charles"): Verify element property value successfully
+
+2022-08-03 08:02:51 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC02-ValidationResponseSingleUser" time="1.132" classname="Test Cases/TC02-ValidationResponseSingleUser" status="PASSED">
+         <system-out><![CDATA[2022-08-03 08:02:51 - [TEST_CASE][PASSED] - Test Cases/TC02-ValidationResponseSingleUser: Test Cases/TC02-ValidationResponseSingleUser
+
+2022-08-03 08:02:52 - [TEST_STEP][PASSED] - sendRequest(findTestObject("GET-SingleUSer", ["SuccessCode":SuccessCode])): Send request successfully
+
+2022-08-03 08:02:52 - [MESSAGE][INFO] - HAR: C:\Users\user\Katalon Studio\Test1-Katalon\Reports\20220803_080243\TS01\20220803_080243\requests\main\2.har
+
+2022-08-03 08:02:52 - [MESSAGE][PASSED] - Send request successfully
+
+2022-08-03 08:02:52 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("GET-SingleUSer", ["SuccessCode":SuccessCode])): Send request and verify the response successfully
+
+2022-08-03 08:02:52 - [MESSAGE][INFO] - HAR: C:\Users\user\Katalon Studio\Test1-Katalon\Reports\20220803_080243\TS01\20220803_080243\requests\main\3.har
+
+2022-08-03 08:02:52 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2022-08-03 08:02:52 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2022-08-03 08:02:52 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2022-08-03 08:02:52 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-08-03 08:02:52 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-08-03 08:02:52 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2022-08-03 08:02:52 - [TEST_STEP][PASSED] - getStatusCode()).isIn(Arrays.asList(200, 201, 202)): null
+
+2022-08-03 08:02:52 - [MESSAGE][PASSED] - Verify response successfully
+
+2022-08-03 08:02:52 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2022-08-03 08:02:52 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-08-03 08:02:52 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC03-ValidationResponseUpdateUser" time="2.139" classname="Test Cases/TC03-ValidationResponseUpdateUser" status="PASSED">
+         <system-out><![CDATA[2022-08-03 08:02:52 - [TEST_CASE][PASSED] - Test Cases/TC03-ValidationResponseUpdateUser: Test Cases/TC03-ValidationResponseUpdateUser
+
+2022-08-03 08:02:53 - [TEST_STEP][PASSED] - sendRequest(findTestObject("PUT-Update", ["userName":userName])): Send request successfully
+
+2022-08-03 08:02:54 - [MESSAGE][INFO] - HAR: C:\Users\user\Katalon Studio\Test1-Katalon\Reports\20220803_080243\TS01\20220803_080243\requests\main\4.har
+
+2022-08-03 08:02:54 - [MESSAGE][PASSED] - Send request successfully
+
+2022-08-03 08:02:54 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("PUT-Update", ["userName":userName])): Send request and verify the response successfully
+
+2022-08-03 08:02:54 - [MESSAGE][INFO] - HAR: C:\Users\user\Katalon Studio\Test1-Katalon\Reports\20220803_080243\TS01\20220803_080243\requests\main\5.har
+
+2022-08-03 08:02:54 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2022-08-03 08:02:54 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2022-08-03 08:02:54 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2022-08-03 08:02:54 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-08-03 08:02:54 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-08-03 08:02:54 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2022-08-03 08:02:54 - [TEST_STEP][PASSED] - getStatusCode()).isIn(Arrays.asList(200, 201, 202)): null
+
+2022-08-03 08:02:54 - [MESSAGE][PASSED] - Verify response successfully
+
+2022-08-03 08:02:54 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2022-08-03 08:02:54 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-08-03 08:02:54 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC04-ValidatonResponseRegisterSuccessful" time="1.681" classname="Test Cases/TC04-ValidatonResponseRegisterSuccessful" status="PASSED">
+         <system-out><![CDATA[2022-08-03 08:02:54 - [TEST_CASE][PASSED] - Test Cases/TC04-ValidatonResponseRegisterSuccessful: Test Cases/TC04-ValidatonResponseRegisterSuccessful
+
+2022-08-03 08:02:55 - [TEST_STEP][PASSED] - sendRequest(findTestObject("POST-RegisterSuccessful", ["Email":Email])): Send request successfully
+
+2022-08-03 08:02:55 - [MESSAGE][INFO] - HAR: C:\Users\user\Katalon Studio\Test1-Katalon\Reports\20220803_080243\TS01\20220803_080243\requests\main\6.har
+
+2022-08-03 08:02:55 - [MESSAGE][PASSED] - Send request successfully
+
+2022-08-03 08:02:55 - [TEST_STEP][PASSED] - response = sendRequestAndVerify(findTestObject("POST-RegisterSuccessful", ["Email":Email])): Send request and verify the response successfully
+
+2022-08-03 08:02:56 - [MESSAGE][INFO] - HAR: C:\Users\user\Katalon Studio\Test1-Katalon\Reports\20220803_080243\TS01\20220803_080243\requests\main\7.har
+
+2022-08-03 08:02:56 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+2022-08-03 08:02:56 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+2022-08-03 08:02:56 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+2022-08-03 08:02:56 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-08-03 08:02:56 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2022-08-03 08:02:56 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+2022-08-03 08:02:56 - [TEST_STEP][PASSED] - getStatusCode()).isIn(Arrays.asList(200, 201, 202)): null
+
+2022-08-03 08:02:56 - [MESSAGE][PASSED] - Verify response successfully
+
+2022-08-03 08:02:56 - [MESSAGE][PASSED] - Send request and verify the response successfully
+
+2022-08-03 08:02:56 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2022-08-03 08:02:56 - [MESSAGE][PASSED] - Verify response status code successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-08-03 08:02:47 - [TEST_SUITE][PASSED] - TS01: Test Cases/TC04-ValidatonResponseRegisterSuccessful]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

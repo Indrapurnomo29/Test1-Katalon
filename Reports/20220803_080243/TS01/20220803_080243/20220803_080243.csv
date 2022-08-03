@@ -1,0 +1,24 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS01,,,,2022-08-03 08:02:47,2022-08-03 08:02:56,8.986s,PASSED
+,,,,,,,
+Test Cases/TC01-ValidationResponseAndVerifyJSONValue,,,,2022-08-03 08:02:48,2022-08-03 08:02:51,3.587s,PASSED
+"sendRequest(findTestObject(""GET-ListUser"", [""SuccessCode"":SuccessCode]))",,,,2022-08-03 08:02:48,2022-08-03 08:02:50,1.702s,PASSED
+"response = sendRequestAndVerify(findTestObject(""GET-ListUser"", [""SuccessCode"":SuccessCode]))",,,,2022-08-03 08:02:50,2022-08-03 08:02:51,1.248s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-08-03 08:02:51,2022-08-03 08:02:51,0.011s,PASSED
+"verifyElementsCount(response, ""data.first_name"", 6)",,,,2022-08-03 08:02:51,2022-08-03 08:02:51,0.137s,PASSED
+"verifyElementPropertyValue(response, ""data[4].first_name"", ""Charles"")",,,,2022-08-03 08:02:51,2022-08-03 08:02:51,0.035s,PASSED
+,,,,,,,
+Test Cases/TC02-ValidationResponseSingleUser,,,,2022-08-03 08:02:51,2022-08-03 08:02:52,1.132s,PASSED
+"sendRequest(findTestObject(""GET-SingleUSer"", [""SuccessCode"":SuccessCode]))",,,,2022-08-03 08:02:52,2022-08-03 08:02:52,0.211s,PASSED
+"response = sendRequestAndVerify(findTestObject(""GET-SingleUSer"", [""SuccessCode"":SuccessCode]))",,,,2022-08-03 08:02:52,2022-08-03 08:02:52,0.510s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-08-03 08:02:52,2022-08-03 08:02:52,0.000s,PASSED
+,,,,,,,
+Test Cases/TC03-ValidationResponseUpdateUser,,,,2022-08-03 08:02:52,2022-08-03 08:02:54,2.139s,PASSED
+"sendRequest(findTestObject(""PUT-Update"", [""userName"":userName]))",,,,2022-08-03 08:02:53,2022-08-03 08:02:54,0.958s,PASSED
+"response = sendRequestAndVerify(findTestObject(""PUT-Update"", [""userName"":userName]))",,,,2022-08-03 08:02:54,2022-08-03 08:02:54,0.870s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-08-03 08:02:54,2022-08-03 08:02:54,0.000s,PASSED
+,,,,,,,
+Test Cases/TC04-ValidatonResponseRegisterSuccessful,,,,2022-08-03 08:02:54,2022-08-03 08:02:56,1.681s,PASSED
+"sendRequest(findTestObject(""POST-RegisterSuccessful"", [""Email"":Email]))",,,,2022-08-03 08:02:55,2022-08-03 08:02:55,0.589s,PASSED
+"response = sendRequestAndVerify(findTestObject(""POST-RegisterSuccessful"", [""Email"":Email]))",,,,2022-08-03 08:02:55,2022-08-03 08:02:56,0.735s,PASSED
+"verifyResponseStatusCode(response, 200)",,,,2022-08-03 08:02:56,2022-08-03 08:02:56,0.002s,PASSED

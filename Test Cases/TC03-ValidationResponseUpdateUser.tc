@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03-ValidationResponseUpdateUser</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>49e61716-bfb4-4dd2-acf2-5a46ace985fa</testCaseGuid>
+</TestCaseEntity>
